@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA[
-freopen("output1.txt","w",stdout);//fc /lb2 output1.txt output2.txt stop after 2 diff
-freopen("input1.txt","r",stdin);
-]]></content>
-<tabTrigger>file</tabTrigger>
-</snippet>
