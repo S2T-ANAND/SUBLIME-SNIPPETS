@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+struct HASH{
+	size_t operator()(const pair<int,int>&x)const{
+    return (size_t) x.first * 37U + (size_t) x.second;
+  }
+};
+]]></content>
+<tabTrigger>HASH</tabTrigger>
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+	int arr[n];
+    const int len=sqrt(n+.0)+1;
+    vector<int>PRE(len);
+    for(int i=0;i<n;++i){
+        PRE[i/len]+=arr[i];
+    }
+    //queries
+    int l,r;
+    int lb=l/len;
+    int rb=r/len;
+    if(lb==rb){
+        for(int i=l;i<=r;++i)
+            ans+=arr[i];
+    }else{
+        for(int i=l,end=(lb+1)*len-1;i<=end;++i)
+            ans+=arr[i];
+        for(int i=lb+1;i<rb;++i)
+            ans+=PRE[i];
+        for(int i=rb*len;i<=r;++i)
+            ans+=arr[i];
+    }
+]]></content>
+<tabTrigger>SQRTD</tabTrigger>
+</snippet>

@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+#include "bits/stdc++.h"
+#define sz(x) (int)x.size()
+#define all(v) v.begin(),v.end()
+using namespace std;
+const int MOD = 1e9 + 7;
+const int MAX = 2e5 + 5;
+#define int int long long
+#ifndef LOCAL
+#define endl '\n'
+#endif
+void solve ()
+{
+	$1
+}
+signed main ()
+{
+	ios::sync_with_stdio(false);cin.tie(nullptr);
+	int tt;cin >> tt;
+	while (tt--) {
+		solve();
+	}
+}
+/* check for
+	* TLE due to ll, array bounds
+	* special cases (n=1,0)
+	* DON'T GET STUCK ON ONE APPROACH
+*/
+]]></content>
+<tabTrigger>fast</tabTrigger>
+</snippet>
