@@ -4,9 +4,9 @@
 #define sz(x) (int)x.size()
 #define all(v) v.begin(),v.end()
 using namespace std;
+#define int int long long
 const int MOD = 1e9 + 7;
 const int MAX = 2e5 + 5;
-#define int int long long
 #ifndef LOCAL
 #define endl '\n'
 #endif
